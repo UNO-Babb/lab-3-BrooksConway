@@ -9,7 +9,7 @@ def main():
 
   tempC = (int(tempF)-32)/1.8
 
-  Final = round(tempC, 1) # rounds to two places
+  Final = round(tempC, 1)
 
   print(tempF, "is ", Final, "degrees celsius.")
 if __name__ == '__main__':
